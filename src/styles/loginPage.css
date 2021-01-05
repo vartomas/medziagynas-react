@@ -1,0 +1,62 @@
+.loginPage {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'PT Sans', sans-serif;
+    background-color: #2d74a3;
+    margin-top: 100px;
+    padding: 24px;
+    border-radius: 24px;
+}
+
+.loginPage form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.loginPage input {
+    width: 199px;
+    height: 30px;
+    margin: 6px;
+    border: 2px solid #22577a;
+    outline: none;
+    border-radius: 5px;
+    font-size: 25px;
+    background-color: white;
+    color: black;
+}
+
+.loginPage button {
+    width: 60px;
+    margin: 12px;
+    background-color: #22577a;
+    color: white;
+    border: none;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.loginPage button:focus {
+    outline: none;
+}
+
+.loginPage button:active {
+    background-color: #3385bb;
+}
+
+.loginPage img {
+    width: 150px;
+}
+
+::placeholder {
+    color: #749ab4;
+}
+
+.loginPage p {
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,114 @@
+.downloadLogsBtn {
+    margin-left: 12px;
+}
+
+.logsPage {
+    display: flex;
+    margin-top: 20px;
+}
+
+.logList {
+    list-style: none;
+    padding: 0;
+    margin-left: 12px;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+}
+
+.statsList {
+    flex: 3;
+    margin-top: 12px;
+    list-style: none;
+    border-left: 10px solid #2d74a3;
+    padding-left: 12px;
+    margin-left: 24px;
+}
+
+.logListItem {
+    display: flex;
+    border-bottom: 1px solid grey;
+    cursor: default;
+}
+
+.logListItem:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+.logListItem > .liDate {
+    flex: 2;
+}
+
+.logListItem > .liUser {
+    flex: 1;
+}
+
+.logListItem > .liChange {
+    flex: 1;
+}
+
+.logListItem > .liMedia {
+    flex: 5;
+}
+
+.logListItem > .liMorph {
+    flex: 1;
+}
+
+.logsMenu {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background-color: rgba(255,255,255,1);
+    margin-top: -1px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #2d74a3;
+}
+
+.logsTop {
+    flex: 3;
+}
+
+.statsTop {
+    flex: 3;
+    margin-left: 48px;
+    margin-top: -8px;
+}
+
+.statsTop > span, select, button {
+    margin-left: 12px;
+}
+
+.statsListItem {
+    display: flex;
+    cursor: default;
+    border-bottom: 1px solid grey;
+}
+
+.statsListItem:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+.removedListItem {
+    width: 8%;
+    color: red;
+    margin-left: 12px;
+}
+
+.addedListItem {
+    width: 8%;
+    color: green;
+}
+
+.nameListItem {
+    width: 22%;
+}
+
+.sizeListItem {
+    width: 15%;
+}
+
+.categoryListItem {
+    width: 15%;
+}

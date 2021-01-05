@@ -1,0 +1,160 @@
+.media {
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-left: 190px;
+    display: flex;
+    flex-direction: column;
+    z-index: 8;
+    background-color: white;
+}
+
+.topMarks {
+    display: flex;
+    position: fixed;
+    right: 0;
+    left: 190px;
+    background-color: white;
+    padding: 0 12px;
+}
+
+.topMarks .nameMark {
+    flex: 6;
+}
+
+.topMarks .sizeMark {
+    flex: 6;
+}
+
+.topMarks .countMark {
+    flex: 1;
+}
+
+.topMarks .countChangeMark {
+    flex: 1;
+}
+
+.topMarks .editMark {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.mediaList {
+    margin: 0;
+    padding: 0;
+    margin-top: 25px;
+}
+
+.mediaList > li {
+    list-style: none;
+    margin: 0px;
+    font-size: 25px;
+    display: flex;
+    border: 1px solid white;
+    padding: 0 12px;
+    cursor: default;
+}
+
+.mediaList > li:hover {
+    border: 1px solid #0096c7;
+}
+
+.mediaName {
+    flex: 6;
+}
+
+.mediaSize {
+    flex: 6;
+}
+
+.mediaCount {
+    flex: 1;
+}
+
+.countChange {
+    flex: 1;
+}
+
+.editBtns {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.plusSign {
+    color: #06d6a0;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.plusSign:hover {
+    color: #06d64b;
+    margin-right: 6px;
+}
+
+.minusSign {
+    color: #d33a3a;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.minusSign:hover {
+    color: #d00000;
+    margin-right: 6px;
+}
+
+.saveEdit {
+    cursor: pointer;
+}
+
+.okSign {
+    cursor: pointer;
+}
+
+@media (max-width: 450px) {
+    .media {
+        margin-top: 23px;
+        margin-left: 6px;
+        margin-right: 6px;
+        background-color: #22577a;
+    }
+    .topMarks {
+        display: none;
+    }
+    .mediaList li {
+        display: flex;
+        margin-bottom: 6px;
+        flex-wrap: wrap;
+        font-size: 20px;
+    }
+    .mediaList li:hover {
+        border: none;
+    }
+    /* .plusSign {
+        margin-right: 36px;
+    }
+    .minusSign {
+        margin-right: 36px;
+    } */
+    .mediaName {
+        flex: 100%;
+    }
+    
+    .mediaSize {
+        flex: 50%;
+    }
+    
+    .mediaCount {
+        flex: 30%;
+    }
+    
+    .countChange {
+        flex: 20%;
+    }
+    
+    .editBtns {
+        flex: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+}

@@ -1,0 +1,105 @@
+.chooseCategory {
+    margin-bottom: 12px;
+    font-size: 25px;
+}
+
+label {
+    font-size: 25px;
+}
+
+.saveEdit {
+    font-size: 20px;
+    color: green;
+    opacity: 0.7;
+    cursor: pointer;
+    margin-left: 12px;
+}
+
+.saveEdit:hover {
+    opacity: 1;
+}
+
+.mediaSettings {
+    margin-left: 12px;
+}
+
+.addMedia {
+    background-color: lightgreen;
+    border-radius: 12px;
+    padding: 12px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 12px 0;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.addMedia:hover {
+    background-color: rgb(52, 216, 52);
+}
+
+.addMediaForm {
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.addMediaForm input {
+    font-size: 18px;
+    width: 300px;
+    height: 20px;
+}
+
+.chooseAddCategory {
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+.userListItem {
+    display: flex;
+    justify-content: space-between;
+    max-width: 250px;
+    align-items: center;
+    margin-left: 12px;
+}
+
+.userListItem p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.userListItem button {
+    background-color: rgb(161, 0, 0);
+    color: white;
+}
+
+.addUser {
+    background-color: lightgreen;
+    border-radius: 12px;
+    padding: 12px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 12px 12px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.addUser:hover {
+    background-color: rgb(52, 216, 52);
+}
+
+.usersSettings {
+    margin-right: 12px;
+}
+
+.addUserForm {
+    margin: 12px;
+}
+
+.addUserForm label {
+    font-size: 15px;
+}
+
+.adminEdit {
+    margin-left: 6px;
+}
